@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+main {
+  background-image: url("./assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: "SV Title";
+  src: url("./assets/Stardew\ Valley\ Regular.ttf");
+}
+
+@font-face {
+  font-family: "SV Base";
+  src: url("./assets/Stardew_Valley.ttf");
+}
+
+*,
+*::after,
+*::before {
+  font-family: "SV Base";
+}
